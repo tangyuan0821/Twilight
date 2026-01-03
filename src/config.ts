@@ -347,7 +347,7 @@ export const umamiConfig = {
 // 资料配置
 export const profileConfig: ProfileConfig = {
     // 头像配置 (相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录)
-    avatar: "assets/images/avatar.png",
+    avatar: "/images/avatar.png",
     // 信息配置
     name: "纸月",
     // 简介配置
