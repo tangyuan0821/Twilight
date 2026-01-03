@@ -91,7 +91,7 @@ export const siteConfig: SiteConfig = {
         // 轮播配置 (fullscreen 和 banner 模式共享)
         carousel: {
             // 为多张图片启用轮播，否则随机显示一张图片
-            enable: true,
+            enable: false,
             // 轮播间隔时间 (秒)
             interval: 3.3,
         },
@@ -334,7 +334,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 // Umami统计配置
 export const umamiConfig = {
     // 是否显示Umami统计
-    enabled: false,
+    enabled: true,
     // API密钥
     apiKey: import.meta.env.UMAMI_API_KEY,
     // UmamiCloudAPI地址
