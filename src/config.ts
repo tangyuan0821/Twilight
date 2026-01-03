@@ -16,7 +16,7 @@ import { LinkPreset } from "./types/config";
  */
 
 // 设置浏览器语言 ('zh', 'en', ...)
-const SITE_LANG = "en";
+const SITE_LANG = "zh";
 
 // 设置网站时区 (from -12 to 12)
 const SITE_TIMEZONE = 8; // UTC+8
@@ -25,7 +25,7 @@ const SITE_TIMEZONE = 8; // UTC+8
 // 站点配置
 export const siteConfig: SiteConfig = {
     // 站点 URL（以斜杠结尾）
-    siteURL: "blog.tangyuan0821.com/", // 请替换为你的站点 URL 并以斜杠结尾
+    siteURL: "https://blog.tangyuan0821.com/", // 请替换为你的站点 URL 并以斜杠结尾
     // 站点标题
     title: "纸与月",
     // 站点副标题
