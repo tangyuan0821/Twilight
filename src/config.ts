@@ -168,7 +168,7 @@ export const siteConfig: SiteConfig = {
     favicon: [
         {
             // 图标文件路径
-            src: "public/favicon/icon-light.ico",
+            src: "/src/icon-light.ico",
         },
     ],
     // bangumi 配置
