@@ -166,6 +166,10 @@ export const siteConfig: SiteConfig = {
     generateOgImages: false, // 注意开启图片生成后要渲染很长时间，不建议本地调试的时候开启
     // favicon 配置
     favicon: [
+        {
+            // 图标文件路径
+            src: "public/favicon/icon-light.ico",
+        },
     ],
     // bangumi 配置
     bangumi: {
