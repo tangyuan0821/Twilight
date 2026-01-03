@@ -25,11 +25,11 @@ const SITE_TIMEZONE = 8; // UTC+8
 // 站点配置
 export const siteConfig: SiteConfig = {
     // 站点 URL（以斜杠结尾）
-    siteURL: "https://twilight.spr-aachen.com/", // 请替换为你的站点 URL 并以斜杠结尾
+    siteURL: "blog.tangyuan0821.com/", // 请替换为你的站点 URL 并以斜杠结尾
     // 站点标题
-    title: "Twilight",
+    title: "纸与月",
     // 站点副标题
-    subtitle: "Blog Template",
+    subtitle: "一笔一纸，一院月光，记录寻常美好",
     // 语言配置
     lang: SITE_LANG, // 自动检测的浏览器语言
     // 翻译配置
@@ -109,7 +109,7 @@ export const siteConfig: SiteConfig = {
                 // 在主页显示文本
                 enable: true,
                 // 主标题
-                title: "Twilight",
+                title: "纸与月",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
                     "Illuminate Our Paths",
@@ -191,13 +191,13 @@ export const navBarConfig: NavBarConfig = {
             children: [
                 {
                     name: "GitHub",
-                    url: "https://github.com/Example",
+                    url: "https://github.com/tangyuan0821",
                     external: true,
                     icon: "fa6-brands:github",
                 },
                 {
                     name: "Bilibili",
-                    url: "https://space.bilibili.com/Example",
+                    url: "https://space.bilibili.com/1779461371",
                     external: true,
                     icon: "fa6-brands:bilibili",
                 },
@@ -345,15 +345,15 @@ export const profileConfig: ProfileConfig = {
     // 头像配置 (相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录)
     avatar: "assets/images/avatar.png",
     // 信息配置
-    name: "Twilight",
+    name: "纸月",
     // 简介配置
-    bio: "Hi",
+    bio: "マジやばくね",
     // 链接配置
     links: [
         {
             name: "GitHub",
             icon: "fa6-brands:github",
-            url: "https://github.com/Spr-Aachen/Twilight",
+            url: "https://github.com/tangyuan0821",
         },
     ],
 };
