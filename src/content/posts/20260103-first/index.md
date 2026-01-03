@@ -2,10 +2,10 @@
 title: Hello Word！
 published: 2026-01-03
 description: "第一篇博客"
-cover: 
-pinned: false
+cover: "./cover.webp"
+pinned: true
 tags: []
-category:
+category: Guides
 draft: false
 ---
 这是一个使用 [Astro](https://twilight.spr-aachen.com/) 框架和 [Twilight](https://twilight.spr-aachen.com/) 主题部署的博客。
