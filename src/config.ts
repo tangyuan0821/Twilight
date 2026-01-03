@@ -27,9 +27,9 @@ export const siteConfig: SiteConfig = {
     // 站点 URL（以斜杠结尾）
     siteURL: "https://blog.tangyuan0821.com/", // 请替换为你的站点 URL 并以斜杠结尾
     // 站点标题
-    title: "纸与月",
+    title: "纸月闲记",
     // 站点副标题
-    subtitle: "一笔一纸，一院月光，记录寻常美好",
+    subtitle: "春有百花秋有月，夏有凉风冬有雪",
     // 语言配置
     lang: SITE_LANG, // 自动检测的浏览器语言
     // 翻译配置
@@ -109,10 +109,10 @@ export const siteConfig: SiteConfig = {
                 // 在主页显示文本
                 enable: true,
                 // 主标题
-                title: "纸与月",
+                title: "纸月闲记",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
-                    "以纸为笺，载月而行，收藏生活的温柔回响",
+                    "春有百花秋有月，夏有凉风冬有雪",
                 ],
                 // 副标题打字机效果
                 typewriter: {
@@ -129,11 +129,11 @@ export const siteConfig: SiteConfig = {
             // 横幅图片来源文本
             credit: {
                 // 显示横幅图片来源文本
-                enable: false,
+                enable: true,
                 // 要显示的来源文本
-                text: "Describe",
+                text: "当时明月",
                 // (可选) 原始艺术品或艺术家页面的 URL 链接
-                url: "",
+                url: "https://www.pixiv.net/artworks/122338267",
             },
             // 导航栏配置
             navbar: {
