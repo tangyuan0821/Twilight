@@ -70,7 +70,7 @@ export const siteConfig: SiteConfig = {
         fixed: false,
     },
     // 默认主题 ("system" 跟随系统 | "light" 浅色 | "dark" 深色)
-    defaultTheme: "dark",
+    defaultTheme: "system",
     // 壁纸配置
     wallpaper: {
         // 模式 ("banner" 横幅 | "fullscreen" 全屏 | "none" 纯色)
@@ -112,7 +112,7 @@ export const siteConfig: SiteConfig = {
                 title: "纸与月",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
-                    "マジやばくね",
+                    "以纸为笺，载月而行，收藏生活的温柔回响",
                 ],
                 // 副标题打字机效果
                 typewriter: {
@@ -185,7 +185,7 @@ export const navBarConfig: NavBarConfig = {
         LinkPreset.Home,
         LinkPreset.Archive,
         {
-            name: "Links",
+            name: "链接",
             url: "/links/",
             icon: "material-symbols:link",
             children: [
@@ -204,7 +204,7 @@ export const navBarConfig: NavBarConfig = {
             ],
         },
         {
-            name: "My",
+            name: "我的",
             url: "/content/",
             icon: "material-symbols:person",
             children: [
@@ -217,7 +217,7 @@ export const navBarConfig: NavBarConfig = {
             ],
         },
         {
-            name: "About",
+            name: "关于",
             url: "/content/",
             icon: "material-symbols:info",
             children: [
@@ -362,9 +362,9 @@ export const profileConfig: ProfileConfig = {
 // 公告配置
 export const announcementConfig: AnnouncementConfig = {
     // 公告标题
-    title: "Announcement",
+    title: "告示",
     // 公告内容
-    content: "Welcome to my blog!",
+    content: "欢迎来到我的博客！",
     // 允许用户关闭公告
     closable: true,
     // 链接配置
@@ -425,7 +425,7 @@ export const postConfig: PostConfig = {
 // 页脚配置
 export const footerConfig: FooterConfig = {
     // 启用 Footer HTML 注入功能
-    enable: false,
+    enable: true,
     // 自定义 HTML 内容，用于添加备案号等信息
     customHtml: "",
 };
@@ -485,7 +485,7 @@ export const particleConfig: ParticleConfig = {
 // 音乐播放器配置
 export const musicPlayerConfig: MusicPlayerConfig = {
     // 启用音乐播放器功能
-    enable: true,
+    enable: false,
     // 默认模式 ("meting" API | "local" 本地)
     mode: "meting",
     // meting 模式专属配置
