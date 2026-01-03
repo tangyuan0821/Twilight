@@ -1,5 +1,5 @@
 ---
-title: Hello Word！
+title: Hello World！
 published: 2026-01-03
 description: "第一篇博客"
 cover: "./cover.webp"
