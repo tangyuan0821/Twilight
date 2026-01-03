@@ -112,7 +112,7 @@ export const siteConfig: SiteConfig = {
                 title: "纸与月",
                 // 副标题，支持单个字符串或字符串数组
                 subtitle: [
-                    "Illuminate Our Paths",
+                    "マジやばくね",
                 ],
                 // 副标题打字机效果
                 typewriter: {
