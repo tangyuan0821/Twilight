@@ -53,7 +53,7 @@ function main() {
   try {
     // Run Astro build
     console.log('🔨 Running Astro build...');
-    execSync(`npx astro build`.trim(), { 
+    execSync(`pnpm exec astro build`.trim(), { 
       stdio: 'inherit',
       cwd: process.cwd() // Ensure in the correct directory
     });
@@ -66,7 +66,7 @@ function main() {
     
     // Run Pagefind
     console.log(`🔍 Running Pagefind search index generation...`);
-    execSync(`npx pagefind --site ${outputDir}`, {
+    execSync(`pnpm exec pagefind --site ${outputDir}`, {
       stdio: 'inherit',
       cwd: process.cwd() // Ensure in the correct directory
     });
